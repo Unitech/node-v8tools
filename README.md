@@ -1,4 +1,4 @@
-Cpuprof - V8 CPU Profiler Binding
+V8tools - V8 CPU Profiler Binding
 ===
 
 
