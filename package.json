@@ -1,0 +1,24 @@
+{ 
+  "name" : "v8tools",
+  "version" : "0.1.0",
+  "description" : "V8 profiler bindings",
+  "author": "Dmitri Melikyan <dmitri@rapidlogix.com>", 
+  "keywords": ["V8 tools", "V8 profiler", "profiler", "CPU profiler", "heap profiler", "posix", "windows"],
+  "contributors": [
+  ],
+  "main": "./index.js",
+  "dependencies": {
+    "bindings": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dmelikyan/node-v8tools.git"
+  }, 
+  "engines": { 
+    "node" : ">=0.6.0" 
+  }, 
+  "licenses": [{ 
+    "type": "MIT",
+    "url": "http://github.com/dmelikyan/node-v8tools/raw/master/LICENSE"
+  }]
+}
