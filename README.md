@@ -15,7 +15,7 @@ V8tools - V8 CPU Profiler Binding
 
 `v8tools.stopV8Profiler(function(parentNodeUid, nodeUid, totalSamplesCount, functionName, scriptResourceName, lineNumber) {})` - stops V8 CPU profiler. Callback function is called on every node while walking profile's top down call tree.
 
-`heapprof.takeHeapSnapshot(function(parentNodeUid, nodeUid, name, type, selfSize, retainedSize, retainerName, retainerType) {})` - takes heap snapshot. Callback function is called on every node of heap node graph.
+`heapprof.takeHeapSnapshot(function(parentNodeUid, nodeUid, name, type, selfSize, retainerName, retainerType) {})` - takes heap snapshot. Callback function is called on every node of heap node graph.
 
 
 
