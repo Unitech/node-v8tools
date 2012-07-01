@@ -1,6 +1,6 @@
 { 
   "name" : "v8tools",
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "description" : "V8 profiler bindings",
   "author": "Dmitri Melikyan <dmitri@rapidlogix.com>", 
   "keywords": ["V8 tools", "V8 profiler", "profiler", "CPU profiler", "heap profiler", "posix", "windows"],

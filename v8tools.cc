@@ -116,17 +116,6 @@ static void IterateHeapSnapshot(const HeapSnapshot* snapshot, Local<Function> ca
   for(int i = 0; i < nodes_count; i++) {
     const HeapGraphNode* node = snapshot->GetNode(i);
 
-    Handle<Value> root_argv[7];
-    root_argv[0] = Undefined();
-    root_argv[1] = Integer::New(node->GetId());
-    root_argv[2] = node->GetName(); 
-    root_argv[3] = Integer::New(node->GetType());
-    root_argv[4] = Integer::New(node->GetSelfSize());
-    root_argv[5] = Undefined(); 
-    root_argv[6] = Undefined();
-
-    callback->Call(Context::GetCurrent()->Global(), 7, root_argv);
- 
     int32_t children_count = node->GetChildrenCount();
     for(int j = 0; j < children_count; j++) {
       const HeapGraphEdge* child_edge = node->GetChild(j);
