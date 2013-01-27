@@ -1,4 +1,4 @@
-var v8tools = require('/usr/local/node-v8tools/build/Release/v8tools.node');
+var v8tools = require('../build/Release/v8tools.node');
 
 
 var bbb1 = {bbb2: []};
