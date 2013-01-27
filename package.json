@@ -1,8 +1,8 @@
 { 
   "name" : "v8tools",
-  "version" : "0.2.0",
-  "description" : "V8 profiler bindings",
-  "author": "Dmitri Melikyan <dmitri@nodetime.com>", 
+  "version" : "0.2.1",
+  "description" : "V8 bindings for Nodetime",
+  "author": "Nodetime <devops@nodetime.com>", 
   "keywords": [
     "V8 tools", 
     "V8 profiler", 
