@@ -1,7 +1,7 @@
 { 
   "name" : "v8tools",
   "version" : "0.2.1",
-  "description" : "V8 bindings for Nodetime",
+  "description" : "V8 profiler and GC bindings",
   "author": "Nodetime <devops@nodetime.com>", 
   "keywords": [
     "V8 tools", 
